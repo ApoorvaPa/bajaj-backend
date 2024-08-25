@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
-const MONGO_URI = "mongodb://localhost:27017/bajajProject";
+const MONGO_URI = "mongodb+srv://apoorvadscience:Z3MEQqGLQ0N350AP@cluster0.pwzfb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const JWT_SECRET = "bajaj";
 
 mongoose
